@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Test</title>
+    <link rel="stylesheet" href="bundle.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="headline">Ты сегодня покормил кота?</div>
+        <div class="block">
+            <div class="block__main ">
+                <div class="block__content" style="background-image: url('img/kat.png')">
+                     <div class="block-text">
+                          <p class="block__description">Сказочное заморское яство</p>
+                          <h1 class="block__headline">Нямушка</h1>
+                          <h3 class="block__filling">c фуагра</h3>
+                          <p class="block__size"><span>10</span> порций<br>мышь в подарок</p>
+                     </div>
+                     <div class="circle"><p class="circle__text">0,5<br><span>кг</span></p></div>
+                 </div>
+                <div class="block__text">
+                    <span class="block__text1">Чего сидишь? Порадуй котэ, </span>
+                    <span class="block__text2"> купи.</span>
+                </div>
+            </div>
+            <div class="block__main active">
+                <div class="block__content" style="background-image: url('img/kat.png')">
+                    <div class="block-text">
+                        <p class="block__description">Сказочное заморское яство</p>
+                        <h1 class="block__headline">Нямушка</h1>
+                        <h3 class="block__filling">c фуагра</h3>
+                        <p class="block__size"><span>10</span> порций<br>мышь в подарок</p>
+                    </div>
+                    <div class="circle"><p class="circle__text">0,5<br><span>кг</span></p></div>
+                </div>
+                <div class="block__text">
+                    <span class="block__text1 active">Головы щучьи с чесноком да свежайшая сёмгушка. </span>
+                    <span class="block__text2 active"> купи.</span>
+                </div>
+            </div>
+            <div class="block__main ">
+                <div class="block__content disabled" style="background-image: url('img/kat.png')">
+                    <div class="block-text">
+                        <p class="block__description">Сказочное заморское яство</p>
+                        <h1 class="block__headline">Нямушка</h1>
+                        <h3 class="block__filling">c куркой</h3>
+                        <p class="block__size"><span>100</span> порций<br>5 мышей в подарок<br>заказчик доволен</p>
+                    </div>
+                    <div class="circle circle--item"><p class="circle__text">5<br><span>кг</span></p></div>
+                </div>
+                <div class="block__text1 block__text1--item3">Печалька с куркой законлся</div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
