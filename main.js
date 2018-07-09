@@ -38,25 +38,25 @@ $(function () {
             }
         });
     });
-    $( ".block__content" ).mouseover(function() {
-        if ($(this).parent().hasClass('active')) {
-            $(this).css("border", "4px solid #d91667");
-            // $('.circle').css("background-color", "#d91667");
-        }
-        else {
-            $(this).css("border", "4px solid #1698d9");
-            // $('.circle').css("background-color", "#1698d9");
-        }
-
-    });
-    $( ".block__content" ).mouseleave(function() {
-        if ($(this).parent().hasClass('active')) {
-            $(this).css("border", "4px solid #e62e7a");
-            // $('.circle').css("background-color", "#e62e7a");
-        }
-        else {
-            $(this).css("border", "4px solid #2ea8e6");
-            // $('.circle').css("background-color", "#2ea8e6");
-        }
-    });
+    // $( ".block__content" ).mouseover(function() {
+    //     if ($(this).parent().hasClass('active')) {
+    //         $(this).css("border", "4px solid #d91667");
+    //         // $('.circle').css("background-color", "#d91667");
+    //     }
+    //     else {
+    //         $(this).css("border", "4px solid #1698d9");
+    //         // $('.circle').css("background-color", "#1698d9");
+    //     }
+    //
+    // });
+    // $( ".block__content" ).mouseleave(function() {
+    //     if ($(this).parent().hasClass('active')) {
+    //         $(this).css("border", "4px solid #e62e7a");
+    //         // $('.circle').css("background-color", "#e62e7a");
+    //     }
+    //     else {
+    //         $(this).css("border", "4px solid #2ea8e6");
+    //         // $('.circle').css("background-color", "#2ea8e6");
+    //     }
+    // });
 });
